@@ -1,0 +1,174 @@
+[
+    {
+        "id": 1,
+        "title": "Getting Acquainted with UNIX",
+        "tasks": [
+            {
+                "id": "1a",
+                "description": "Getting acquainted with basic UNIX commands (who, touch, cat, cp, rm, mv, ls, ln, chmod, etc.)",
+                "type": "command"
+            },
+            {
+                "id": "1b",
+                "description": "Getting acquainted with UNIX filters (grep, sort, cut, awk, etc.)",
+                "type": "command"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Shell Scripting: Basics",
+        "tasks": [
+            {
+                "id": "2a",
+                "description": "Write a shell script for a basic calculator using decision making/case.",
+                "type": "script",
+                "file_name": "calculator.sh"
+            },
+            {
+                "id": "2b",
+                "description": "Write a shell script to generate a series of numbers multiplied by 2.",
+                "type": "script",
+                "file_name": "series_mul2.sh"
+            },
+            {
+                "id": "2c",
+                "description": "Write a shell script to generate all combinations of 1, 2, and 3.",
+                "type": "script",
+                "file_name": "combinations.sh"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Shell Scripting: Files",
+        "tasks": [
+            {
+                "id": "3a",
+                "description": "Script to accept text lines to file until 'end' is input, then count/display lines.",
+                "type": "script",
+                "file_name": "text_input.sh"
+            },
+            {
+                "id": "3b",
+                "description": "Script to compare two files using diff, cmp, comm.",
+                "type": "script",
+                "file_name": "compare_files.sh"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Shell Scripting: Directories",
+        "tasks": [
+            {
+                "id": "4",
+                "description": "Menu-driven script for: Absolute/Relative Path Navigation, Listing, Creating, Modifying Directories.",
+                "type": "script",
+                "file_name": "dir_manager.sh"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Shell Scripting: DBMS",
+        "tasks": [
+            {
+                "id": "5",
+                "description": "Script for basic DBMS: Insert, View, Search, Sort, Modify, Delete records.",
+                "type": "script",
+                "file_name": "dbms.sh"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Shell Scripting: Utilities",
+        "tasks": [
+            {
+                "id": "6a",
+                "description": "Print reverse of input number (without using `rev`).",
+                "type": "script",
+                "file_name": "reverse_num.sh"
+            },
+            {
+                "id": "6b",
+                "description": "Check if valid Email ID and URL.",
+                "type": "script",
+                "file_name": "validate.sh"
+            },
+            {
+                "id": "6c",
+                "description": "Concatenate all given files into single file.",
+                "type": "script",
+                "file_name": "concat_files.sh"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "C Programming: System Utils",
+        "tasks": [
+            {
+                "id": "7a",
+                "description": "Implement `cp` Unix command in C.",
+                "type": "c_prog",
+                "file_name": "my_cp.c"
+            },
+            {
+                "id": "7b",
+                "description": "Implement `cat` Unix command in C.",
+                "type": "c_prog",
+                "file_name": "my_cat.c"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "C Programming: Memory Management",
+        "tasks": [
+            {
+                "id": "8",
+                "description": "Simulate Page Replacement Algorithms: FIFO and LRU.",
+                "type": "c_prog",
+                "file_name": "page_replacement.c"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "C Programming: Processes & Scheduling",
+        "tasks": [
+            {
+                "id": "9a",
+                "description": "Demonstrate fork() and exec() system calls.",
+                "type": "c_prog",
+                "file_name": "fork_exec.c"
+            },
+            {
+                "id": "9b",
+                "description": "Implement CPU Scheduling (FCFS) with TAT and WT calculation.",
+                "type": "c_prog",
+                "file_name": "fcfs.c"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "C Programming: Threads & Sync",
+        "tasks": [
+            {
+                "id": "10a",
+                "description": "Demonstrate threads using 'pthread'.",
+                "type": "c_prog",
+                "file_name": "threads.c"
+            },
+            {
+                "id": "10b",
+                "description": "Simulate Producer-Consumer problem using Semaphores.",
+                "type": "c_prog",
+                "file_name": "producer_consumer.c"
+            }
+        ]
+    }
+]

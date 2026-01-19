@@ -1,0 +1,75 @@
+=====================================
+       UNIX COMMANDS REFERENCE
+=====================================
+
+FILE OPERATIONS
+---------------
+ls          - List directory contents
+ls -la      - List with details & hidden
+cat file    - Display file contents
+cp a b      - Copy file a to b
+mv a b      - Move/rename file
+rm file     - Remove file
+rm -rf dir  - Remove directory recursively
+touch file  - Create empty file
+head file   - Show first 10 lines
+tail file   - Show last 10 lines
+wc file     - Count lines, words, chars
+
+DIRECTORY OPERATIONS
+--------------------
+pwd         - Print working directory
+cd dir      - Change directory
+cd ..       - Go up one level
+cd ~        - Go to home directory
+mkdir dir   - Create directory
+rmdir dir   - Remove empty directory
+
+FILE PERMISSIONS
+----------------
+chmod 755   - rwxr-xr-x
+chmod 644   - rw-r--r--
+chown user  - Change owner
+chgrp group - Change group
+
+TEXT PROCESSING
+---------------
+grep pattern file - Search for pattern
+sed 's/a/b/' file - Replace a with b
+awk '{print $1}'  - Print first column
+sort file         - Sort lines
+uniq              - Remove duplicates
+cut -d: -f1       - Cut by delimiter
+
+PROCESS MANAGEMENT
+------------------
+ps          - List processes
+ps aux      - All processes detailed
+top         - Interactive process viewer
+kill PID    - Terminate process
+kill -9 PID - Force kill
+bg          - Background process
+fg          - Foreground process
+
+SHELL SCRIPTING
+---------------
+#!/bin/bash      - Shebang line
+$1, $2, ...      - Arguments
+$#               - Number of args
+$?               - Exit status
+$0               - Script name
+if [ ]; then fi  - Conditional
+for i in; do done- Loop
+while [ ]; do done- While loop
+
+USEFUL OPERATORS
+----------------
+>   - Redirect output (overwrite)
+>>  - Redirect output (append)
+<   - Redirect input
+|   - Pipe output to next command
+&&  - Run next if success
+||  - Run next if fail
+&   - Run in background
+
+=====================================
