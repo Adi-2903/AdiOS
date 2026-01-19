@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=500&lines=AdiOS;Unix+Lab+Practice+Tool;Master+the+Terminal+💻" alt="AdiOS" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24&height=180&section=header&text=AdiOS&fontSize=60&fontAlignY=35&desc=Unix%20Lab%20Practice%20Tool&descSize=20&descAlignY=55&animation=twinkling" width="100%"/>
 </p>
 
 <p align="center">
