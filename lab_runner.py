@@ -61,6 +61,15 @@ def main():
     
     while True:
         console.clear()
+        console.print("")
+        console.print("[bold magenta]  ╔══════════════════════════════════════════╗[/bold magenta]")
+        console.print("[bold magenta]  ║[/bold magenta]  [bold cyan]█▀▀█ █▀▀▄ ▀▀▀ █▀▀█ █▀▀[/bold cyan]                 [bold magenta]║[/bold magenta]")
+        console.print("[bold magenta]  ║[/bold magenta]  [bold cyan]█▄▄█ █  █ ▀█▀ █  █ ▀▀█[/bold cyan]                 [bold magenta]║[/bold magenta]")
+        console.print("[bold magenta]  ║[/bold magenta]  [bold cyan]▀  ▀ ▀▀▀  ▀▀▀ ▀▀▀▀ ▀▀▀[/bold cyan]                 [bold magenta]║[/bold magenta]")
+        console.print("[bold magenta]  ║[/bold magenta]  [dim]═══════════════════════[/dim]                 [bold magenta]║[/bold magenta]")
+        console.print("[bold magenta]  ║[/bold magenta]     [dim]Adi's Operating System Lab Tool[/dim]    [bold magenta]║[/bold magenta]")
+        console.print("[bold magenta]  ╚══════════════════════════════════════════╝[/bold magenta]")
+        console.print("")
         console.print(Panel("[bold magenta]OS Lab Practice Tool[/bold magenta]\n[dim]Select a lab to practice Unix/Linux commands[/dim]"))
         
         table = Table(show_header=True, header_style="bold cyan")
