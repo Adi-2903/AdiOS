@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Author-Adi-blueviolet?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Shell-Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Made%20With-❤️-red?style=for-the-badge" />
+
 </p>
 
 <p align="center">
